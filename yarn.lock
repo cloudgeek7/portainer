@@ -5254,6 +5254,13 @@
   dependencies:
     "@uirouter/core" "5.0.11"
 
+"@uirouter/angularjs@1.0.30":
+  version "1.0.30"
+  resolved "https://registry.yarnpkg.com/@uirouter/angularjs/-/angularjs-1.0.30.tgz#5cea4076300ce5ec6926e2c6e3707745753baefc"
+  integrity sha512-qkc3RFZc91S5K0gc/QVAXc9LGDPXjR04vDgG/11j8+yyZEuQojXxKxdLhKIepiPzqLmGRVqzBmBc27gtqaEeZg==
+  dependencies:
+    "@uirouter/core" "6.0.8"
+
 "@uirouter/core@5.0.11":
   version "5.0.11"
   resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-5.0.11.tgz#bec461fcda767d79c98f6647cc9313ef9e5de03a"
@@ -5263,6 +5270,11 @@
   version "6.0.7"
   resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.7.tgz#a66743dceb13a56d8908474ff891d63e5d5a2b01"
   integrity sha512-KUTJxL+6q0PiBnFx4/Z+Hsyg0pSGiaW5yZQeJmUxknecjpTbnXkLU8H2EqRn9N2B+qDRa7Jg8RcgeNDPY72O1w==
+
+"@uirouter/core@6.0.8":
+  version "6.0.8"
+  resolved "https://registry.yarnpkg.com/@uirouter/core/-/core-6.0.8.tgz#a1e919a4743be729751aafc4ce353d0dc0ffd26c"
+  integrity sha512-Gc/BAW47i4L54p8dqYCJJZuv2s3tqlXQ0fvl6Zp2xrblELPVfxmjnc0eurx3XwfQdaqm3T6uls6tQKkof/4QMw==
 
 "@uirouter/react-hybrid@^1.0.4":
   version "1.0.4"
@@ -8596,10 +8608,6 @@ diffie-hellman@^5.0.0:
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/diffie-hellman/-/diffie-hellman-5.0.3.tgz#40e8ee98f55a2149607146921c63e1ae5f3d2875"
   integrity sha512-kqag/Nl+f3GwyK25fhUMYj81BUOrZ9IuJsjIcDE5icNM9FJHAVm3VcUDxdLPoQtTuUylWm6ZIknYJwwaPxsUzg==
-  dependencies:
-    bn.js "^4.1.0"
-    miller-rabin "^4.0.0"
-    randombytes "^2.0.0"
 
 dir-glob@^2.2.2:
   version "2.2.2"
@@ -13629,10 +13637,24 @@ minimalistic-crypto-utils@^1.0.1:
   resolved "https://registry.yarnpkg.com/minimalistic-crypto-utils/-/minimalistic-crypto-utils-1.0.1.tgz#f6c00c1c0b082246e5c4d99dfb8c7c083b2b582a"
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
-"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2, minimatch@^3.0.5, minimatch@~3.0.5:
+"minimatch@2 || 3", minimatch@^3.0.0, minimatch@^3.0.2:
   version "3.0.5"
   resolved "https://registry.npmjs.org/minimatch/-/minimatch-3.0.5.tgz#4da8f1290ee0f0f8e83d60ca69f8f134068604a3"
   integrity sha512-tUpxzX0VAzJHjLu0xUfFv1gwVp9ba3IOuRAVH2EGuRW8a5emA2FlACLqiT/lDVtS1W+TGNwqz3sWaNyLgDJWuw==
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimatch@^3.0.4:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.2.tgz#19cd194bfd3e428f049a70817c038d89ab4be35b"
+  integrity sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==
+  dependencies:
+    brace-expansion "^1.1.7"
+
+minimatch@~3.0.4:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.8.tgz#5e6a59bd11e2ab0de1cfb843eb2d82e546c321c1"
+  integrity sha512-6FsRAQsxQ61mw+qP1ZzbL9Bc78x2p5OqNgNpnoAFLTrX8n5Kxph0CsnhmKKNXTWjXqU5L0pGPR7hYk+XWZr60Q==
   dependencies:
     brace-expansion "^1.1.7"
 
