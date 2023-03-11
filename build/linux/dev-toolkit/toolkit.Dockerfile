@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:rolling
 
 # Expose port for the Portainer UI and Edge server
 EXPOSE 9000
