@@ -140,7 +140,7 @@
     "react": "^17.0.2",
     "react-datetime-picker": "^4.2.0",
     "react-dom": "^17.0.2",
-    "react-i18next": "^11.12.0",
+    "react-i18next": "^11.18.6",
     "react-is": "^18.2.0",
     "react-query": "^3.33.4",
     "react-select": "^5.2.1",
